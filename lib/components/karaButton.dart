@@ -19,8 +19,8 @@ class PianoBlackButton extends StatelessWidget {
         horizontal: 10,
       ),
       child: SizedBox(
-        width: 60,
-        height: 150,
+        width: 63,
+        height: 170,
         child: Visibility(
           visible: visible,
           child: ElevatedButton(

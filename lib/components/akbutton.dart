@@ -38,10 +38,10 @@ class PianoWhiteButton extends StatelessWidget {
                 'notes/$notesName.wav')
               );
           }) ,
-          child: Align(
+          child: const Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: const EdgeInsets.only(bottom: 10),
+              padding: EdgeInsets.only(bottom: 10),
               child: Text(
                 'f3',
                 style: TextStyle(color: Colors.black),
